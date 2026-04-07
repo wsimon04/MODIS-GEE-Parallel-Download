@@ -15,7 +15,7 @@ date
 echo "MODIS download for GROUP_ID=${GROUP_ID}, DATES ${START_DATE}-> ${END_DATE}"
 
 # Run the Python script for this group/date range
-python3 /path/to/downlaod.py \
+python3 /path/to/download.py \
     ${GROUP_ID} ${START_DATE} ${END_DATE}
 
 
